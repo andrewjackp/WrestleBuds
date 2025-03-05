@@ -9,7 +9,6 @@
         <ul>
             @foreach($wrestlers as $wrestler)
                 <li><a href="/wrestler/{{$wrestler->id}}">{{$wrestler->name}}</a></li>
-                <li><a href="/wrestler/{{$wrestler->id}}/edit">EDIT</a></li>
             @endforeach   
         </ul>
 </x-layout>

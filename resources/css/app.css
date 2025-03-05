@@ -1,3 +1,26 @@
+@import "meyer-reset.css";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+header {
+	nav {
+		ul {
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			gap: 20px;
+		}
+	}
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh; /* full viewport height */
+} 
+
+main {
+	flex-grow: 1;
+	border: 1px solid green;
+}
