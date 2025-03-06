@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
+use App\Models\Wrestler;
+
 class Promotion extends Model
 {
     use HasFactory;

@@ -6,6 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
+use App\Models\Promotion;
+use App\Models\Wrestler;
+
 class Bout extends Model
 {
    use HasFactory;
