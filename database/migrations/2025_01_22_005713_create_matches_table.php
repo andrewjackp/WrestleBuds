@@ -17,7 +17,7 @@ return new class extends Migration
             $table->id();
             $table->timestamps();
             $table->string('title');
-            $table->foreignId('promotion_id', Promotion::class);
+            $table->foreignId('promotion_id', Promotion::class)->nullable()->constrained();
         });
     }
 
